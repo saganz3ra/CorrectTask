@@ -1,0 +1,97 @@
+/* AdicionarDesafio.css */
+
+.adicionar-desafio-container {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+strong {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004085;
+}
+
+.botao-criterio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0056b3;
+  color: white;
+  padding: 8px 90px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.criterios-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.criterios-container button {
+  width: 80px;
+  margin-left: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+ul li {
+  list-style-type: disc;
+  color: #333;
+  font-size: 16px;
+}
